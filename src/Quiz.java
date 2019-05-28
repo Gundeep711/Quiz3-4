@@ -7,7 +7,9 @@ public class Quiz {
 		int num = s1.length();
 		System.out.println("Length of string s1 is : " + num);
 		
-		String sub=s1.substring(129);
+		//part 2
+		int index=s1.length()-15;
+		String sub=s1.substring(index);
 		System.out.println("The last 15 characters in the string is "+sub);
 
 		// part 3
